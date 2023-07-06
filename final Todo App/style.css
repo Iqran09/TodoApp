@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(85, 84, 84, 0.678);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.child-container {
+    margin-top: 20px;
+    width: 100%;
+    /* max-width: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Caprasimo', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Faustina', serif; */
+    text-align: center;
+    font-size: 60px;
+}
+
+#inp {
+    border: none;
+    outline: none;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.686);
+    border-radius: 4px;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#inp:hover {
+    background-color: rgb(253, 248, 248);
+    border: 2px rgb(12, 12, 12) solid;
+    transform: scale(1.2);
+}
+
+#addTaskBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 20px;
+    padding:10px;
+    background-color: rgba(81, 83, 81, 0.85);
+    color: white;
+    font-weight: bolder;
+}
+
+#addTaskBtn:hover {
+    background-color: rgba(15, 252, 94, 0.795);
+    transform: scale(1.2);
+    border: 1px black solid;
+
+}
+
+#delAllBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(81, 83, 81, 0.85);
+    color: white;
+    font-weight: 700;
+}
+
+#delAllBtn:hover {
+    background-color: rgba(240, 74, 87, 0.911);
+    transform: scale(1.2);
+    border: 1px black solid;
+}
+
+#list li {
+    list-style-type: none;
+    border: 1px solid rgba(0, 0, 0, 0.196);
+    border-radius: 4px;
+    cursor: pointer;
+    height: 60px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.686);
+    font-size: 15px;
+    padding: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#list li:hover {
+    background-color: rgba(128, 128, 128, 0.122);
+    border: none;
+    transform: scale(1.1);
+}
+
+.div1 {
+    text-align: end;
+}
+
+.div2 {
+    text-align: end;
+}
+
+.del {
+    float: right;
+    /* border: none; */
+    border-color:red;
+    padding: 5PX;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    margin-left: 10px;
+    border-bottom: 2px solid red;
+    /* letter-spacing: 1px; */
+    background-color: rgba(255, 255, 255, 0);
+    color: red;
+    font-weight: bolder
+}
+
+.edit {
+    /* border: none; */
+    float: right;
+    border-color: green;
+    padding: 5px;
+    border-bottom: 2px solid green;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    color: green;
+    background-color: rgba(255, 255, 255, 0);
+}
+li{
+    margin: 20px 5px;
+    /* display: inline-block; */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script&family=Faustina:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>TO DO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="container">
+    <h1><b>To Do List</b></h1><hr><hr>
+    <br><br>
+    <div class="child-container">
+        <input  type="text" name="" id="inp" placeholder="Add a new to do...">
+    </div>
+    <br>
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="addTask()" id="addTaskBtn">Add Task</button>
+        <button onclick="delAll()" id="delAllBtn">Delete All</button>
+    </div>  
+    <ul id="ul">
+        
+    </ul>
+</div>
+
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
